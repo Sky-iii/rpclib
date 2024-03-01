@@ -1,0 +1,15 @@
+{
+    "files.associations": {
+        "*.m": "matlab",
+        "pycore_ceval.h": "c",
+        "pycore_interp.h": "c",
+        "pycore_gil.h": "c",
+        "pthread.h": "c"
+    },
+    "clangd.arguments": [
+        "--compile-commands-dir=${workspaceFolder}/build",
+        "--log=verbose",
+        "--header-insertion=never",
+        "--query-driver=/usr/bin/g++"
+    ],
+}
